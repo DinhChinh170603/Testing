@@ -1,14 +1,14 @@
 def classify_student(avg):
+    if (avg < 0.0 or avg > 10.0):
+        return "Input không hợp lệ"
     if (avg >= 8.0 and avg <= 10.0):
         return "Giỏi"
     elif (avg >= 6.5 and avg < 8.0):
         return "Khá"
     elif (avg >= 5.0 and avg < 6.5):
         return "Trung bình"
-    elif (avg >= 0.0 and avg < 5.0):
-        return "Yếu"
     else:
-        return "Input không hợp lệ"
+        return "Yếu"
 
 # Bảng quyết định
 test_cases = [
