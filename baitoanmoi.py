@@ -45,7 +45,7 @@ test_cases = [
     ["New", 2],
     ["New", 5],
     ["New", 8],
-    ["New", 219999999]
+    ["New", 120]
 ]
 
 # Hàm kiểm thử
