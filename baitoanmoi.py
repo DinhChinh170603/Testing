@@ -4,7 +4,7 @@ def calculate_discount(membership_type, duration):
     if membership_type == "New":
         if duration < 3:
             return 10
-        elif duration >= 3 and duration <= 6:
+        elif duration >= 3 and duration < 6:
             return 15
         elif duration >= 6 and duration < 12:
             return 20
@@ -13,7 +13,7 @@ def calculate_discount(membership_type, duration):
     elif membership_type == "Old":
         if duration < 3:
             return 15
-        elif duration >= 3 and duration <= 6:
+        elif duration >= 3 and duration < 6:
             return 20
         elif duration >= 6 and duration < 12:
             return 25
@@ -22,7 +22,7 @@ def calculate_discount(membership_type, duration):
     elif membership_type == "Loyal":
         if duration < 3:
             return 15
-        elif duration >= 3 and duration <= 6:
+        elif duration >= 3 and duration < 6:
             return 20
         elif duration >= 6 and duration < 12:
             return 25
