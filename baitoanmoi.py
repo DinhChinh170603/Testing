@@ -1,5 +1,5 @@
 def calculate_discount(membership_type, duration):
-    if duration < 0:
+    if duration < 1:
         return "Input không hợp lệ"
     if membership_type == "New":
         if duration < 3:
